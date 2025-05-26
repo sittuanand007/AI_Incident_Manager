@@ -4,6 +4,7 @@
 This project contains an AI-powered agent designed to automate key aspects of IT incident management. It monitors an email inbox, classifies incidents by priority, assigns them to appropriate teams, 
 sends acknowledgements, and creates Jira tickets for critical (P1) issues.
 
+
 ## Features
 - **Email Monitoring:** Fetches new emails from a specified IMAP account.
 - **Incident Parsing:** Extracts relevant information (subject, body) from emails.
@@ -17,18 +18,18 @@ sends acknowledgements, and creates Jira tickets for critical (P1) issues.
 
 ## Project Structure
 incident_management_agent/
-├── agent.py # Main agent logic and scheduler
-├── config_manager.py # Loads and provides configuration
-├── email_handler.py # Handles email interactions
-├── incident_parser.py # Parses incoming incident data
-├── incident_classifier.py # Classifies priority and assigns teams
-├── jira_handler.py # Handles Jira ticket creation
-├── models.py # Pydantic models for data structures
-├── .env.example # Example for environment variables (secrets)
-├── .gitignore # Specifies intentionally untracked files
-├── config.ini # Non-secret configurations and rules
-├── requirements.txt # Python dependencies
-└── incident_agent.log # Log file (generated on run)
+- **agent.py** # Main agent logic and scheduler
+- **config_manager.py** # Loads and provides configuration
+- **email_handler.py** # Handles email interactions
+- **incident_parser.py** # Parses incoming incident data
+- **incident_classifier.py**# Classifies priority and assigns teams
+- **jira_handler.py** # Handles Jira ticket creation
+- **models.py** # Pydantic models for data structures
+- **.env.example** # Example for environment variables (secrets)
+- **.gitignore** # Specifies intentionally untracked files
+- **config.ini** # Non-secret configurations and rules
+- **requirements.txt** # Python dependencies
+- **incident_agent.log** # Log file (generated on run)
 
 
 ## Prerequisites
