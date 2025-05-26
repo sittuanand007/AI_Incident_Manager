@@ -1,0 +1,13 @@
+# For Jira integration
+jira
+
+# For scheduling periodic tasks
+schedule
+
+# For data validation and settings management
+pydantic
+
+# For loading environment variables from .env file
+python-dotenv
+
+# Note: imaplib, smtplib, email, logging, configparser, os, time are part of Python's standard library
